@@ -1,5 +1,5 @@
 import java.util.*;
-public class MissingNumbers {
+public class Q1MissingNumbers {
     public static void main(String[] args) {
         Scanner ak=new Scanner(System.in);
         int m=-1;
