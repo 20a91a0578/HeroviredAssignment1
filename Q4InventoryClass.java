@@ -46,7 +46,7 @@ class Inventory {
   }
 }
 
-public class InventoryClass {
+public class Q4InventoryClass {
   static Scanner input = new Scanner(System.in);
   static Inventory inventory = new Inventory();
 
