@@ -1,5 +1,5 @@
 import java.util.*;
-public class UniqueNumbers {
+public class Q2UniqueNumbers {
    public static void main(String[] args) {
     Scanner ak=new Scanner(System.in);
     
