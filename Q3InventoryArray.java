@@ -1,5 +1,5 @@
 import java.util.*;
-public class InventoryArray {
+public class Q3InventoryArray {
 	static Scanner AK = new Scanner(System.in);
 	public static void main(String[] args) {
 		System.out.println("ENTER NO OF PRODUCTS YOU WANT TO MANAGE ");
