@@ -50,10 +50,10 @@ public class Q3InventoryArray {
 		}while(option<=5 && option>0);
 	}
 	public static void getInventoryDetails(Map<String,List<String>> invent) {
-		int i = 1;
+		System.out.println("ProductName\tSpecification\tCost\tCount");
 		for(String st :invent.keySet()) {
-			System.out.println(i + " "+st);
-			i++;
+			List<String> k=invent.get(st);
+			System.out.println(st+"\t\t"+k.get(0)+"\t\t"+k.get(1)+"\t"+k.get(2));
 		}
 	}
 	public static void InventoryUpdate(Map<String,List<String>> invent) {
