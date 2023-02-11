@@ -14,6 +14,7 @@ public class Q2UniqueNumbers {
             m.put(arr[i], 1);
         }
        }
+       System.out.println("\n Unique Numbers in the given   Array:\n");
        for(Integer k:m.keySet())
        System.out.print(k+" ");
        ak.close();
