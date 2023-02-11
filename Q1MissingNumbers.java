@@ -13,7 +13,7 @@ public class Q1MissingNumbers {
           m=a[i];
           h.put(a[i],1);
         }
-        System.out.println(h);
+       System.out.println("\nMissing Numbers in Given Array::\n");
        for(int i=1;i<=m;i++)
        if(h.get(i)==null)
        System.out.print(i+" ");
